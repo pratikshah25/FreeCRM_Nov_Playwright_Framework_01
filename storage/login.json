@@ -1,0 +1,71 @@
+{
+  "cookies": [
+    {
+      "name": "g_state",
+      "value": "{\"i_l\":0,\"i_ll\":1794058461449,\"i_b\":\"AnwbWh/MfSqc4BPYvLuHyatngmax3hN4e9MPLZYg1xY\",\"i_e\":{\"enable_itp_optimization\":24},\"i_et\":1794058461449}",
+      "domain": "ui.freecrm.com",
+      "path": "/",
+      "expires": 1809610461,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "__cf_bm",
+      "value": "STlk9L53qUpQdZ2NpV93vwZstxsOiQ4.wsdTTH4oNok-1794058464.138147-1.0.1.1-Km6m2OAjpKwfBnF975chaCJCNGU7X06Nvhlzhqa4QHsKa5JceHrWqyTPXzchj9w.yCfWqk_zWCBWNRYJlMSH3ueMgjlswD17njL60ab5yDFzpr.aTECBbLt5YX_tg8Nn",
+      "domain": ".onesignal.com",
+      "path": "/",
+      "expires": 1794060263.757902,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None",
+      "partitionKey": "https://freecrm.com",
+      "_crHasCrossSiteAncestor": true
+    },
+    {
+      "name": "NID",
+      "value": "CuQBCAESlgEBM9Agl0XHOYDbMIc-5tzr60KK7q_S5uFF_R1oLZ6XlFG-lC9ekbbBANfJiyemut9LWL-Qj7KhxfNlUiAKzMpOdKZ3W9EBWVlV0l-db9RfHcvtPTBMavnyLiospoz4N6lqm5xbe3uL6ccQ3TolVxLNsPIVZ79MyiVyVpK1VjdGwlQ2PTddzqXmF2D2GrwVK6DbAiAapvcoATJFAXBKQs-gpP7of25qXGLMpi7VyQlsDcanp2YQ713c0syV-2LSA8lN25dJY5DQUgf1BUsgvqyJNW0OkJA3dDsU2_R9cSsE",
+      "domain": ".google.com",
+      "path": "/",
+      "expires": 1809869663.796534,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    }
+  ],
+  "origins": [
+    {
+      "origin": "https://ui.freecrm.com",
+      "localStorage": [
+        {
+          "name": "os_pageViews",
+          "value": "1"
+        },
+        {
+          "name": "auth_token",
+          "value": "63a58db670798eeec95f394c5b01cc8248700470"
+        },
+        {
+          "name": "fc_dark_mode",
+          "value": "false"
+        },
+        {
+          "name": "os_feature_flags",
+          "value": "[\"sdk_background_threading\",\"sdk_event_device_gesture\",\"sdk_identity_verification\"]"
+        },
+        {
+          "name": "fc_ui_theme",
+          "value": "default"
+        },
+        {
+          "name": "version",
+          "value": "1.1.53"
+        },
+        {
+          "name": "userConsent",
+          "value": "false"
+        }
+      ]
+    }
+  ]
+}

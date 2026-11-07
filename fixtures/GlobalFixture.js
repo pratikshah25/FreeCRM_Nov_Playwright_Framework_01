@@ -2,7 +2,7 @@ import { test as base, expect } from '@playwright/test';
 import LoginPage from '../pages/LoginPage.js';
 import ContactPage from '../pages/ContactPage.js';
 
-const customTest = base.extend({
+const test = base.extend({
     loginPage : async({ page }, use) => {
         await use(new LoginPage(page));
     },

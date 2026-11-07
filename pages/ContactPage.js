@@ -7,17 +7,17 @@ export default class ContactPage extends BasePage
     {
         super(page);
 
-        this.contactLink = this.getByRole('link', {name : 'Contacts'});
+        this.contactLink = this.page.getByRole('link', {name : 'Contacts'});
 
-        this.createButton = this.getByRole('button', {name : 'Create'});
+        this.createButton = this.page.getByRole('button', {name : 'Create'});
 
-        this.firstname = this.getByRole('textbox', {name : 'First Name'});
+        this.firstname = this.page.getByRole('textbox', {name : 'First Name'});
 
-        this.lastname = this.getByRole('textbox', {name : 'Last Name'});
+        this.lastname = this.page.getByRole('textbox', {name : 'Last Name'});
 
-        this.email = this.getByRole('textbox', {name : 'Email'});
+        this.email = this.page.getByRole('textbox', {name : 'Email'});
 
-        this.saveButton = this.getByRole('button', {name : 'Save'});
+        this.saveButton = this.page.getByRole('button', {name : 'Save'});
     }
 
     async clickOnContactLink()

@@ -27,12 +27,12 @@ export default class BasePage
 
     async title()
     {
-        await this.page.title();
+        return await this.page.title();
     }
 
     async url()
     {
-        await this.page.url();
+       return await this.page.url();
     }
 
     async fill(locator, value)

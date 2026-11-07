@@ -1,6 +1,6 @@
 import { test, expect } from '../fixtures/GlobalFixture.js';
 
-test.beforeEach("Precondition", async ({page}) => {
+test.beforeEach("Precondition", async ({ page }) => {
     await page.goto("/");
 });
 
