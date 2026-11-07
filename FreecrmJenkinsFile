@@ -12,7 +12,7 @@ pipeline
 
     choice(
         name : 'BROWSER_NAME',
-        choices : ['qa', 'uat', 'staging'],
+        choices : ['chromium', 'firefox', 'webkit'],
         description : 'Select Broser Name'
     )
 
