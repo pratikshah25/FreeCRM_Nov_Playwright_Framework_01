@@ -22,7 +22,7 @@ pipeline
         description : 'Select Browser Name'
     )
 
-    String(
+    string(
         name : 'BRANCH_NAME',
         defaultValue : 'master',
         description : 'Enter Branch Name'
